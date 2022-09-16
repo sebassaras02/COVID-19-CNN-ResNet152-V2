@@ -34,7 +34,7 @@ The best model was the one who used transfer learning with a ResNet152-V2 archit
     H -->|No| J[Deal with underfitting]
     J --> K[Use transfer learning]
     K --> L[Add new layers]
-    L-->|Yes| MExport the model]
+    L-->|Yes| M[Export the model]
     L-->|No| N[Repeat all again]
     
 
